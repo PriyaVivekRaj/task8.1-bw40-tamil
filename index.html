@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="index.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="index.css" />
+    </head>
+    <body>
+        <form action="/action_page.php">
+            <label for="fname" class="name" >Name:</label><br>
+            <input type="text" id="name" name="firstname" required>
+        
+            <input type="text" id="lname" name="lname" required><br>
+            <small>First</small>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<small>Last</small><br><br>
+            <label for="fname" class="name">Email</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            
+            <label for="Exp" class="name">
+             Your Experience</label><br>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            
+            <p>Overall, how would you rate you experience with us?</p>
+            <!-- <hr style="border:3px solid #f1f1f1"> -->
+            <label class="name" for="Expr" class="name">
+                How
+           satisfied are you with</label><br>
+            <table width="750px" border="0px">
+                <tr>
+                    <td style="width: 150px;"></td>
+                    <td align="center">Very Unsatisfied</td>
+                    <td align="center">Unsatisfied</td>
+                    <td align="center">Neutral</td>
+                    <td align="center">Satisfied</td>
+                    <td align="center">Very Satisfied</td>
+                </tr>
+                <tr style="background-color: lightblue; border-color: lightblue;">
+                    <td style="width: 150px;">Purchase</td>
+                    <td align="center"><input type="radio" name="purchase"></td>
+                    <td align="center"><input type="radio" name="purchase"></td>
+                    <td align="center"><input type="radio" name="purchase"></td>
+                    <td align="center"><input type="radio" name="purchase"></td>
+                    <td align="center"><input type="radio" name="purchase" ></td>
+                </tr>
+                <tr>
+                    <td style="width: 150px;">Service</td>
+                    <td align="center"><input type="radio" name="Service"></td>
+                    <td align="center"><input type="radio" name="Service"></td>
+                    <td align="center"><input type="radio" name="Service"></td>
+                    <td align="center"><input type="radio" name="Service"></td>
+                    <td align="center"><input type="radio" name="Service"></td>
+                </tr>
+                <tr style="background-color: lightblue;">
+                    <td style="width: 150px;">Company Overall</td>
+                    <td align="center"><input type="radio" name="company"></td>
+                    <td align="center"><input type="radio" name="company"></td>
+                    <td align="center"><input type="radio" name="company"></td>
+                    <td align="center"><input type="radio" name="company"></td>
+                    <td align="center"><input type="radio" name="company"></td>
+                </tr>
+            </table>
+            <br>
+            
+            <label for="like" class="name" >
+           How likely are you to</label>
+            <table width="750px" border="0px">
+                <tr>
+                    <td style="width: 150px;"></td>
+                    <td align="center">Very Unlikely</td>
+                    <td align="center">Unlikely</td>
+                    <td align="center">Neutral</td>
+                    <td align="center">Likely</td>
+                    <td align="center">Very Likely</td>
+                </tr>
+                <tr style="background-color: lightblue;">
+                    <td style="width: 150px;">Buy from us again</td>
+                    <td align="center"><input type="radio" name="buy"></td>
+                    <td align="center"><input type="radio" name="buy"></td>
+                    <td align="center"><input type="radio" name="buy"></td>
+                    <td align="center"><input type="radio" name="buy"></td>
+                    <td align="center"><input type="radio" name="buy"></td>
+                </tr>
+                <tr>
+                    <td style="width: 150px;">Recommend our products to others</td>
+                    <td align="center"><input type="radio" name="pro"></td>
+                    <td align="center"><input type="radio" name="pro"></td>
+                    <td align="center"><input type="radio" name="pro"></td>
+                    <td align="center"><input type="radio" name="pro"></td>
+                    <td align="center"><input type="radio" name="pro"></td>
+                </tr>
+                <tr style="background-color: lightblue;">
+                    <td style="width: 150px;">Recommend our company to others</td>
+                    <td align="center"><input type="radio" name="reco"></td>
+                    <td align="center"><input type="radio" name="reco"></td>
+                    <td align="center"><input type="radio" name="reco"></td>
+                    <td align="center"><input type="radio" name="reco"></td>
+                    <td align="center"><input type="radio" name="reco"></td>
+                </tr>
+            </table>
+            <br>
+
+            <h4>Additional comments or suggestions</h4>
+            <textarea style="width: 500px; height: 100px;" name="txtComments" maxlength="1000"></textarea>
+
+
+            <br><br>
+            <button type="submit">Submit</button>
+          </form>
+    </body>
+    </html>

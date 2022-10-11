@@ -1,0 +1,16 @@
+.checked {
+    color: yellow;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
+.name:after{
+    
+    content:"*";
+    color: red;
+    }
+    .name{
+        font-weight: bold;
+    }
